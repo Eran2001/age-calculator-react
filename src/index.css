@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #E5D9F2;
+}
+
+.main-div {
+  width: 25%;
+  border: 8px solid #A294F9;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 15%;
+  padding: 100px 0 100px 0;
+}
+
+.try-again {
+  background-color: #A294F9;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
